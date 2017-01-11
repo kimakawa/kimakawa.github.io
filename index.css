@@ -1,0 +1,103 @@
+body {
+  font-size: 14px;
+}
+
+ul{
+display:table;
+width: 700px;
+}
+
+li{
+display:table-cell;
+vertical-align:middle;
+table-layout: fixed;
+text-align: center;
+}
+
+.self-intro {
+  padding: 30px 0 0;
+  text-align: left;
+  
+}
+
+#logo {
+  text-align: left;
+  padding: 20px 0;
+}
+
+#logo img {
+  max-width: 200px;
+  border: 5px solid grey;
+  border-radius: 100%;
+}
+
+#logo h3 {
+  letter-spacing: 0;
+  color: grey;
+  text-shadow: 1px 1px 0 black;
+  padding-left: 20px;
+}
+
+.app-image {
+  padding-bottom: 20px;
+}
+
+.app-image img {
+  max-width: 500px;
+  border: 3px solid grey;
+  border-radius: 20%;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon .glyphicon {
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: #777;
+}
+
+.content h2 {
+  margin-top: 0;
+  padding-bottom: 15px;
+}
+
+.content p {
+  margin-bottom: 30px;
+}
+
+footer {
+  border-top: 1px solid#e7e7e7;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.copyright {
+  padding: 20px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .panel-title {
+    font-size: 14px;
+  }
+}
